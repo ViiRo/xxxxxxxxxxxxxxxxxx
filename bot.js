@@ -13,7 +13,7 @@ channel.send(`**Fares spam , Fares spam , Fares spam , Fares spam Fares spamFare
 client.on('message', message => {
  if(message.author.id !== "544394910183194628" )return;
 
-let command = "1say"
+let command = "3say"
 
 if (!message.content.startsWith(command) || message.author.bot ) return;
 const args = message.content.slice(command.length).split(/ +/g).join(" ");
